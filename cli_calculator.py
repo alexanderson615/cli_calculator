@@ -77,10 +77,10 @@ def calculate(num1, num2, operation):
             print("Invalid operation.")
             return None
     def main():
-    while True:
+        while True:
         num1, num2, operation = get_input()
-        if num1 is None or num2 is None:
-            continue
+            if num1 is None or num2 is None:
+                continue
         result = calculate(num1, num2, operation)
         if result is not None:
             print(f"Result: {result}")
